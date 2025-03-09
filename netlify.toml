@@ -8,3 +8,6 @@ for = "/*"
   to = "/:splat"
   status = 200
   force = true
+
+[build]
+  ignore_processing = true
