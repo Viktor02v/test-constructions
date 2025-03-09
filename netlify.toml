@@ -1,0 +1,10 @@
+[[headers]]
+for = "/*"
+  [headers.values]
+  Cache-Control = "no-transform"
+
+[[redirects]]
+  from = "/.netlify/images"
+  to = "/:splat"
+  status = 200
+  force = true

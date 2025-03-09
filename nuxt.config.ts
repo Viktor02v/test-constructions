@@ -11,4 +11,7 @@ export default defineNuxtConfig({
   pinia:{
     storesDirs:['./store/**'],
   },
+  image: {
+    domains: ['cloud.appwrite.io']
+  }
 })
