@@ -14,16 +14,22 @@
     "@nuxt/ui": "^2.21.1",
     "@nuxtjs/google-fonts": "^3.2.0",
     "@pinia/nuxt": "^0.10.1",
+    "@speckle/viewer": "^2.23.10",
     "@tanstack/vue-query": "^5.67.2",
+    "@types/three": "^0.174.0",
     "appwrite": "^17.0.0",
     "dayjs": "^1.11.13",
     "dayjs-nuxt": "^1.2.7",
     "nuxt": "^3.16.0",
     "pinia": "^3.0.1",
-    "vue": "^3.5.13",
+    "three": "^0.174.0",
+    "vue": "latest",
     "vue-router": "^4.5.0"
   },
   "overrides": {
     "vue": "latest"
+  },
+  "devDependencies": {
+    "@iconify-json/ic": "^1.2.2"
   }
 }

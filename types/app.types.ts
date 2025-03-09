@@ -5,6 +5,7 @@ export interface IBaseField {
 export interface News extends IBaseField {
   title: string;
   content: string;
-  date: string;
   foto_url: string;
+  views:number;
+  author: string;
 }
