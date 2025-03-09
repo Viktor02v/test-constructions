@@ -43,8 +43,8 @@ const scrollToSection = (index: number) => {
     <!-- Bilboard -->
     <div class="z-30 relative w-full">
       <NuxtImg
-        src="/foto1.jpg"
-        class="w-full h-96  object-cover"
+        src="/bilboard.jpg"
+        class="w-full h-full  object-cover"
         alt=""
       />
     </div>
@@ -164,7 +164,7 @@ const scrollToSection = (index: number) => {
         >
           <div class="md:w-1/2 h-full">
             <NuxtImg
-              src="https://www.aecbytes.com/illustrations/newsletter/2022/issue_113-images/fig5a.png"
+              src="/speckle-foto.png"
               class="w-[100%] h-full object-cover"
               alt=""
             />
