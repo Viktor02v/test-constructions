@@ -43,7 +43,7 @@ const scrollToSection = (index: number) => {
     <!-- Bilboard -->
     <div class="z-30 relative w-full">
       <NuxtImg
-        src="http://picsum.photos/id/411/3900/1100"
+        src="https://picsum.photos/id/411/3900/1100"
         class="w-full h-full  object-cover"
         alt=""
       />

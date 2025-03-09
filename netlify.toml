@@ -1,13 +1,2 @@
-[[headers]]
-for = "/*"
-  [headers.values]
-  Cache-Control = "no-transform"
-
-[[redirects]]
-  from = "/.netlify/images"
-  to = "/:splat"
-  status = 200
-  force = true
-
 [build]
-  ignore_processing = true
+  ignore_processing = true  # Stops Netlify from messing with image URLs
